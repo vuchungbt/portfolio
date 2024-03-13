@@ -221,3 +221,86 @@ initial-value: 0deg;
 .tiktok { color: #69c9d0; }
 .youtube { color: #ff0000; }
 
+
+/* 
+-------------------------------- tool box ----
+*/
+.demo-select {
+  padding: 5px 10px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  width: 120px !important;
+  display: inline-block;
+  margin-top: 30px; }
+
+.theme-options {
+  width: 180px;
+  position: fixed;
+  right: -180px;
+  top: 15%;
+  z-index: 1000;
+  border-radius: 5% 0 0 5%;
+  border: 1px solid #d5d5d5;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
+  .theme-options.active {
+    right: 0; }
+  .theme-options .toggle-btn {
+    position: absolute;
+    top: -1px;
+    left: -50px;
+    height: 40px;
+    width: 40px;
+    margin-top: 0.5px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    cursor: pointer; }
+   
+    .theme-options .toggle-btn span i {
+      font-size: 26px;
+      -webkit-animation-name: settings;
+      animation-name: settings;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      color: #cacaca;
+    margin-left: -5px; }
+
+@-webkit-keyframes settings {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes settings {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+.theme-options .theme-menu {
+  text-align: center;
+  padding: 20px 10px; 
+}
+  .theme-options .theme-menu h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222; }
+
+
+
