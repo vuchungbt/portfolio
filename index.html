@@ -36,7 +36,7 @@
                     <li class="nav-item pt-2"><a class="nav-link" href="#about">Hồ sơ</a></li>
                     <li class="nav-item pt-2"><a class="nav-link" href="#services">Kỹ năng</a></li>
                     <li class="nav-item pt-2"><a class="nav-link" href="#portfolio">Ảnh</a></li>
-                    <li class="nav-item pt-2"><a class="nav-link" href="#contact">Liên hệ</a></li>
+                    <li class="nav-item pt-2"><a class="nav-link" href="#contact">Dự án</a></li>
                     <li class="nav-item ">
                         <div class="dropdown show">
                             <a class="btn btn-transparent dropdown-toggle" role="button" id="dropdownMenuLink"
@@ -68,13 +68,14 @@
                 <span>
                     <ul>
                         <li>
-                            <a class="btn btn-transparent text-light" href="#" >Nhắn cho tôi</a>
+                            <a class="btn btn-transparent text-light" href="#">Nhắn cho tôi</a>
                         </li>
                         <li>
-                            <a class="btn btn-transparent text-light" style="margin-top: 10px;" href="#" >Trang trò chuyện</a>
+                            <a class="btn btn-transparent text-light" style="margin-top: 10px;" href="#">Trang trò
+                                chuyện</a>
                         </li>
                     </ul>
-                
+
                 </span>
             </div>
         </div>
@@ -98,6 +99,40 @@
     <!-- About-->
     <section class="page-section bg-dark " id="about">
         <div class="container px-4 px-lg-5">
+            <h2 class="text-center text-light mt-0">Hồ sơ</h2>
+            <hr class="divider" />
+
+            <div class="text-center">
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#SumModal">
+                    Tóm tắt
+                </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="SumModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Thông tin</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- infomation-->
+                            <i class="fa fa-user-tie"></i> Hồ Vũ Chung
+                            <br>
+                            <i class="fa fa-calendar"></i> 16 tháng 6, 1996
+                            <br>
+                            <i class="fa fa-phone"></i> +84962779762
+                            <br>
+                            <i class="fa fa-envelope"></i> adm@vuchungbt.com
+                            <br>
+                            <i class="fa fa-map-marker"></i> 301 - Thế Lữ, Sơn Trà, Đà Nẵng
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="activity" class="col-12 col-lg-12 text-light">
                 <h4>Hoạt động</h4>
                 <ul class="collapse timeline" id="collapseSummary">
