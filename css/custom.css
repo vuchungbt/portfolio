@@ -169,15 +169,15 @@ initial-value: 0deg;
   
   background: repeating-conic-gradient(
     from var( --angle),
-    #f4623a 0%,
-    #f4623a 1%,
-    #f4623a 5%,
+    #82b2fe 0%,
+    #82b2fe 1%,
+    #82b2fe 5%,
     transparent 1%, 
     transparent 20%,
     transparent 20%,
-    #f4623a 25%,
-    #f4623a 10%,
-    #f4623a 10%
+    #82b2fe 25%,
+    #82b2fe 10%,
+    #82b2fe 10%
     
   );
   animation: rotate 4s linear infinite;
